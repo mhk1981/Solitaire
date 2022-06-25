@@ -1,8 +1,7 @@
 class Player:
     def __init__(self):
         self.__id = None
-        self.__firstName = None
-        self.__lastName = None
+        self.__userName = None
         self.__email = None
         self.__password = None
         self.__score = None
@@ -11,11 +10,8 @@ class Player:
     def get_id(self):
         return self.__id
 
-    def get_firstName(self):
-        return self.__firstName
-
-    def get_lastName(self):
-        return self.__lastName
+    def get_userName(self):
+        return self.__userName
 
     def get_email(self):
         return self.__email
@@ -30,11 +26,8 @@ class Player:
     def set_if(self, id):
         self.__id = id
 
-    def set_firstName(self, firstName):
-        self.__firstName = firstName
-
-    def set_lastName(self, lastName):
-        self.__lastName = lastName
+    def set_userName(self, userName):
+        self.__userName = userName
 
     def set_email(self, email):
         self.__email = email
